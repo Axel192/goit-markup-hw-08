@@ -1,0 +1,121 @@
+#header {
+  outline: 1px solid #ececec;
+}
+.head {
+  display: flex;
+}
+
+.head a {
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.head nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo > a {
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.navigat a {
+  color: $black;
+  font-weight: 500;
+  font-size: 14px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.navigat a:hover {
+  color: $blue;
+  font-size: 14px;
+  transform: color($blue);
+}
+
+.navigat {
+  display: flex;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.navigat li:not(:last-child) {
+  margin-right: 50px;
+}
+.web {
+  color: $blue;
+  font-family: $Raleway;
+  font-size: 26px;
+}
+
+.studio {
+  color: $black;
+  font-family: $Raleway;
+  font-size: 26px;
+}
+
+#now-here {
+  color: $blue;
+  font-weight: 500;
+  font-size: 14px;
+}
+.here {
+  position: relative;
+}
+.here::before {
+  position: absolute;
+  content: "";
+  height: 4px;
+  width: 78px;
+  background-color: $blue;
+  bottom: 0;
+  border-radius: 5px;
+}
+.mail-svg {
+  fill: $grey;
+  margin-right: 10px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mail:hover .mail-svg {
+  fill: $blue;
+}
+.contact a {
+  color: $grey;
+  font-weight: 500;
+  font-size: 14px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact a:hover {
+  color: $blue;
+  font-weight: 500;
+  font-size: 14px;
+  transform: color($blue);
+}
+.mail a {
+  display: flex;
+  align-items: center;
+}
+.phone a {
+  display: flex;
+  align-items: center;
+}
+.phone-svg {
+  fill: $grey;
+  margin-right: 10px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.phone:hover .phone-svg {
+  fill: $blue;
+}
+.contact {
+  display: flex;
+  padding: 0;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.contact li:first-child {
+  margin-right: 50px;
+}

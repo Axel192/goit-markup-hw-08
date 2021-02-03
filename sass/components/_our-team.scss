@@ -1,0 +1,55 @@
+.our-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: $team;
+}
+
+.our-team ul {
+  display: flex;
+  align-content: center;
+
+  justify-content: center;
+}
+.person {
+  box-shadow: 0px 4px 5px grey;
+  margin-right: 30px;
+  width: 270px;
+  outline: 1px solid $outline;
+  background-color: white;
+}
+.person:last-child {
+  margin-right: 0;
+  outline: 1px solid $outline;
+  background-color: white;
+}
+.our-team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  color: $text;
+  margin-top: 0;
+
+  display: flex;
+  justify-content: center;
+}
+.our-team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  color: $text;
+  margin: 0;
+  text-align: center;
+}
+.card-text {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.our-team p {
+  margin: 0;
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  color: $grey;
+
+  text-align: center;
+}

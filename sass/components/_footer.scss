@@ -1,0 +1,158 @@
+.studio2 {
+  color: $white;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+}
+#footer {
+  background: $background;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+address p {
+  color: $white;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+}
+
+address a {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 20px;
+}
+address p {
+  display: flex;
+  margin-bottom: 9px;
+  margin-top: 0;
+}
+
+address a:not(:last-child) {
+  display: inline-block;
+  margin-bottom: 9px;
+}
+
+.icon-footer {
+  display: flex;
+  padding: 0;
+}
+
+address {
+  display: flex;
+}
+.left {
+  width: 231px;
+}
+.right {
+  margin-left: 70px;
+  margin-top: 15px;
+}
+.right p {
+  margin-bottom: 20px;
+  font-family: $Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  margin-top: 0px;
+  color: $white;
+}
+
+.stud {
+  position: relative;
+}
+
+.stud::before {
+  display: inline-block;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: $blue;
+  bottom: 0;
+  border-radius: 5px;
+}
+
+.wrap {
+  display: flex;
+}
+
+.subscribe {
+  display: inline;
+  width: 570px;
+  height: 86px;
+  margin-left: 93px;
+  margin-top: 15px;
+}
+.sub {
+  margin: 0px;
+  margin-bottom: 20px;
+  color: white;
+  font-family: $Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.footer-mail {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  background-color: $background;
+  padding: 0;
+  padding-left: 16px;
+  font-family: $Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: $grey;
+}
+
+.telega {
+  width: 200px;
+  height: 50px;
+
+  background-color: $blue;
+  color: $white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: 0px;
+  border-radius: 4px;
+  font-family: $Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  padding-left: 29px;
+  cursor: pointer;
+  position: relative;
+  margin-left: 12px;
+}
+
+.lin {
+  display: flex;
+}
+
+.icon-telega {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 28px;
+  top: 13px;
+  margin-left: 10px;
+}

@@ -1,0 +1,52 @@
+.properties h3 {
+  font-weight: 700;
+  font-size: 14px;
+  color: $black;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.properties p {
+  font-weight: 400;
+  font-size: 14px;
+  color: $grey;
+  margin: 0px;
+}
+.properties {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+.properties ul {
+  padding: 0;
+  display: flex;
+  align-content: center;
+  margin: 0;
+}
+.properties li::before {
+  background-color: $team;
+  content: "";
+  display: inline-block;
+  width: 270px;
+  height: 120px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+}
+.properties li:nth-child(1)::before {
+  background-image: url(../images/antenna.svg);
+}
+.properties li:nth-child(2)::before {
+  background-image: url(../images/clock.svg);
+}
+.properties li:nth-child(3)::before {
+  background-image: url(../images/diagram.svg);
+}
+.properties li:nth-child(4)::before {
+  background-image: url(../images/astronaut.svg);
+}
+
+.properties li {
+  width: 270px;
+}
+.properties li:not(:last-child) {
+  margin-right: 30px;
+}
