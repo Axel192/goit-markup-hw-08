@@ -1,20 +1,27 @@
-.main {
+.container {
   background-color: blue;
-  height: 200px;
-  opacity: 0.7;
-  font-size: 100px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-@media (max-width: 480px) {
-  .main {
-    background-color: red;
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
   }
 }
 
-@media (max-width: 768px) and (min-width: 481px) {
-  .main {
-    background-color: yellow;
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
   }
 }
 /*# sourceMappingURL=main.css.map */

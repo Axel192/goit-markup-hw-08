@@ -1,18 +1,22 @@
-.main {
+body {
   background-color: blue;
-  height: 200px;
-  opacity: 0.7;
-  font-size: 100px;
   text-align: center;
+  display: inline;
 }
 
 @media (max-width: 480px) {
-  .main {
-    background-color: red;
+  body {
+    width: 480px;
   }
 }
 @media (max-width: 768px) and (min-width: 481px) {
-  .main {
-    background-color: yellow;
+  body {
+    width: 768px;
+  }
+}
+
+@media (max-width: 1200px) {
+  body {
+    width: 1200px;
   }
 }
