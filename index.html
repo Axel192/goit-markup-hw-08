@@ -4,16 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Студия</title>
- 
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
   rel="stylesheet">
   <link rel="stylesheet" href="main.css">
 </head>
     <body>
-      <header class="container">
-       <p> <span>Web</span><span>Studio</span></p>
-        <ul>
+      <div class="container">
+      <header>
+        <nav class="nav">
+       <p class="webstudio"> <span class="web">Web</span><span class="studio">Studio</span></p>
+        <ul class="navigate">
           <li>
           <a href="index.html">Студия</a> 
           </li>
@@ -24,17 +25,28 @@
             <a href="">Контакты</a>
           </li>
         </ul>
-        <ul>
+        <button type="button" class="menu-button is-open"data-menu-button>
+          <svg class="svg" aria-label="Переключатель мобильного меню">
+            <use class="icon-menu" href="./images/symbol-defs.svg#icon-mobile-menu"></use>
+            <use class="icon-cross" href="./images/symbol-defs.svg#icon-mobile-close"></use>
+          </svg>
+        </button>
+        </nav>
+        <ul class="navigate">
           <li><a href="mailto:info@devstudio.com"><img src="./images/mail.svg" alt="">info@devstudio.com</a></li>
           <li><a href="callto:+380961111111"> <img src="./images/phone.svg" alt=""> +38 096 111 11 11</a></li>
         </ul>
+       
       </header>
-      <section class="container">
-        <img src="./images/hero.jpg" alt="">
-        <h1>ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-        <button>Заказать услугу</button>
+      </div>
+      <div class="container">
+      <section class="hero" >
+        <h1 class="hero-h1">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+        <button class="hero-button">Заказать услугу</button>
       </section>
-      <section class="container"> 
+      </div>
+      <div class="container">
+      <section > 
         <ul>
           <li><img src="./images/antenna.svg" alt=""> <h3>ВНИМАНИЕ К ДЕТАЛЯМ</h3><P>Идейные соображения, а также начало повседневной работы по формированию позиции.</P></li>
           <li><img src="./images/clock.svg" alt=""> <h3>ПУНКТУАЛЬНОСТЬ</h3><P>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</P></li>
@@ -42,7 +54,9 @@
           <li><img src="./images/cosmo.svg" alt=""><h3>СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3><P>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</P></li>
         </ul>
       </section>
-      <section class="container">
+      </div>
+      <div class="container">
+      <section >
         <h2>Чем мы занимаемся</h2>
         <ul>
           <li> <img src="images/desktop.jpg" alt=""> <p>ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</p></li>
@@ -52,10 +66,12 @@
           <p>ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</p></li>
         </ul>
       </section>
-      <section class="container">
+      </div>
+      <div class="container">
+      <section >
         <h2>Наша команда</h2>
         <ul>
-          <li><img src="./images/team1.jpg" alt="">
+          <li><img src="./images/team1.jpg" alt="" class="team-photo">
           <h3>Игорь Демьяненко</h3>
           <p>Product Designer</p>
             <ul>
@@ -65,7 +81,7 @@
               <li></li>
             </ul>
           </li>
-          <li><img src="./images/team2.jpg" alt="">
+          <li><img src="./images/team2.jpg" alt="" class="team-photo">
           <h3>Ольга Репина</h3>
           <p>Frontend Developer</p>
         <ul>
@@ -74,7 +90,7 @@
           <li></li>
           <li></li>
         </ul></li>
-          <li><img src="./images/team3.jpg" alt="">
+          <li><img src="./images/team3.jpg" alt="" class="team-photo">
           <h3>Николай Тарасов</h3>
           <p>Marketing</p>
         <ul>
@@ -83,7 +99,7 @@
           <li></li>
           <li></li>
         </ul></li>
-          <li><img src="./images/team4.jpg" alt="">
+          <li><img src="./images/team4.jpg" alt="" class="team-photo">
           <h3>Михаил Ермаков</h3>
           <p>UI Designer</p>
         <ul>
@@ -94,7 +110,9 @@
         </ul></li>
         </ul>
       </section>
-      <section class="container">
+      </div>
+      <div class="container">
+      <section >
         <h2>Постоянные клиенты</h2>
         <ul>
           <li><img src="./images/client1.svg" alt=""></li>
@@ -105,7 +123,9 @@
           <li><img src="./images/client6.svg" alt=""></li>
         </ul>
       </section>
-      <footer class="container">
+      </div>
+      <div class="container">
+      <footer>
         <div>
          <p> <span>Web</span><span>Studio</span></p>
          <address>г. Киев, пр-т Леси Украинки, 26</address>
@@ -132,5 +152,7 @@
           </form>
         </div>
       </footer>
+      </div>
+      <script src="./js/menu.js"></script>
     </body>
     </html>
