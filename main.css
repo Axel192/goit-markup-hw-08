@@ -83,7 +83,7 @@ body {
   }
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 480px) {
   .menu-button {
     margin-left: 276px;
     height: 40px;
